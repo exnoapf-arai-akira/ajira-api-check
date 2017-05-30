@@ -17,14 +17,6 @@ def url_to_image(url):
 
 urls = open('urllist2.txt')
 
-#for url in f:
-#    print url
-#    urllist = url.split("/")
-#    filename = urllist[-1]
-#    cmd = "wget -N %s" % (url)
-#    os.system(cmd)
-
-
 for url in urls:
     urllist = url.split("/")
     filename = urllist[-1]
