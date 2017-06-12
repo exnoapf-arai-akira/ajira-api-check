@@ -1,8 +1,9 @@
-create urllist2.txt from urllist.txt
+This api client has 2 methods.
 
-and then
+1. $ cp urllist.txt urllist2.txt
+   $ python api.py urllist2.txt
 
-python api.py
+2. $ python api.py http://35.189.168.244/bust2/bust-1804.jpg
 
 This server on which the image is uploaded
 http://35.189.168.244/bust2/
